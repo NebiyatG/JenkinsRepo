@@ -39,7 +39,6 @@ egrep -e 'tag' git-log.txt
 
 echo $?
 
-#egrep -i session auth.log
+egrep -i 'new session' auth.log
 
-#echo $?
-
+echo $?
