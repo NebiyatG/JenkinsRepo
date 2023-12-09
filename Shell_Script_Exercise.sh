@@ -1,18 +1,29 @@
 #!/bin/bash
 
-$ chmod x ./Shell_Script_Exercise.sh
+# $ chmod x ./Shell_Script_Exercise.sh
 
 
-
-
-
-# egrep /"+ "|"- "/  Script_TestCases
+egrep -e test  Script_TestCases.txt
 
 echo $?
 
-
-
-egrep -i session auth.log
+egrep -e  '\+ '  Script_TestCases.txt
 
 echo $?
-exit 1
+
+egrep -e  '\- '  Script_TestCases.txt
+
+echo $?
+
+egrep -e  '\+ |\- '  Script_TestCases.txt
+
+echo $?
+
+egrep -e '\+ ' shell-test.json
+
+echo $?
+
+#egrep -i session auth.log
+
+#echo $?
+

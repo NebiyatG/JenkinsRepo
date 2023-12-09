@@ -1,5 +1,7 @@
-sample1= + 1sdwe5
-sample2= - swqwe43w
-sample3= 23354
-sample4= asdses
-sample5 = slooow2342r3sss
++ 1sdwe5
+- swqwe43w
+23354
+asdses
+slooow2342r3sss
+
+This is a test script. + Try to get script to find regular expressions using egrep.
