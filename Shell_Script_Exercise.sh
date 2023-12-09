@@ -1,6 +1,6 @@
-#!/bin/bash
+#!/usr/bin/env bash
 
-# $ chmod x ./Shell_Script_Exercise.sh
+chmod a+x ./Shell_Script_Exercise.sh
 
 
 egrep -e test  Script_TestCases.txt
@@ -20,6 +20,22 @@ egrep -e  '\+ |\- '  Script_TestCases.txt
 echo $?
 
 egrep -e '\+ ' shell-test.json
+
+echo $?
+
+egrep -e  '\- '  shell-test.json
+
+echo $?
+
+egrep -e  '\+ |\- '  shell-test.json
+
+echo $?
+
+egrep -e  '\+ |\- '  auth.log
+
+echo $?
+
+egrep -e 'tag' git-log.txt
 
 echo $?
 
